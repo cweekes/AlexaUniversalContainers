@@ -1,0 +1,14 @@
+{
+  "intents": [
+    {
+      "intent": "OrderTrackingIntent",
+      "slots": [{
+        "name": "OrderId",
+        "type": "AMAZON.NUMBER"
+      }]
+    },    
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+ }
